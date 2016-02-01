@@ -2,7 +2,7 @@ define(function(require, exports, module) {
     main.consumes = [
         "Plugin", "ui", "commands", "menus", "preferences", "settings"
     ];
-    main.provides = ["myplugin"];
+    main.provides = ["myplugin"]; //test
     return main;
 
     function main(options, imports, register) {
